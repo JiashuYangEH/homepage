@@ -1,12 +1,9 @@
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, K. Fan, Y. Liu, C. Wang, and Q.Niu . LaNCoR: Label Noise-Contrastive Robust Learning for Seismic Signal Processing with Application to Microseismic Arrival Time Picking. <strong>In Revision.</strong> [[Code]](https://github.com/senli1073/LaNCor)
+- <strong>J. Yang</strong>, M. Huang*, and R. Yang (2026). Deep Learning in Auditory Attention Decoding: A Systematic Review. <strong>Systems Science & Control Engineering</strong>, 14(1), 2640250. [[Paper]](TBD)
 
-- X. Yang, <strong>S. Li</strong>, A. Cao*, C. Wang*, Y. Liu, X. Bai, and Q. Niu (2024). Deep Transfer Learning for P-wave Arrival Identification and Automatic Seismic Source Location in Underground Mines. <strong>International Journal of Rock Mechanics and Mining Sciences</strong>. [[Paper]](https://doi.org/10.1016/j.ijrmms.2024.105888)
+- <strong>J. Yang</strong>, W. Wang, M. Huang*, and W. Sun (2024). A Cross-Platform Guidance System for Virtual Reality-Based Upper Limb Rehabilitation. <strong>Proceedings of the 10th International Conference on Virtual Reality (ICVR)</strong>, pp. 184–189. [[Paper]](TBD)
 
-- <strong>S. Li</strong>, X. Yang*, A. Cao*, C. Wang, Y. Liu, Y. Liu, and Q. Niu (2024). SeisT: A Foundational Deep-Learning Model for Earthquake Monitoring Tasks. <strong>IEEE Transactions on Geoscience and Remote Sensing</strong>. [[Paper]](https://doi.org/10.1109/TGRS.2024.3371503) [[Code]](https://github.com/senli1073/SeisT)
+- Y. Cheng, S. Zhao*, <strong>J. Yang</strong>, and K. Merritt (2025). From Focal to Scattered: Designing Culturally Adaptive VR for Chinese Architectural Painting. <strong>Human-Computer Interaction – INTERACT 2025</strong>, vol. 16108, pp. 1–12. [[Paper]](TBD)
 
-- A. Cao, X. Yang, C. Wang*, <strong>S. Li</strong>, Y. Liu, L. Dou, and Q. Niu (2023). High-Precision Phase Picking and Automatic Source Locating Method for Seismicity in Mines Based on Deep Transfer Learning. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2023.0095)
+- Y. Cheng, M. Huang*, <strong>J. Yang</strong>, and W. Sun (2024). 2.5D Immersive Representation of Chinese Claborate-Style Painting in Virtual Reality. <strong>Proceedings of the 10th International Conference on Virtual Reality (ICVR)</strong>, pp. 161–166. [[Paper]](TBD)
 
-- A. Cao, Y. Liu, X. Yang*, <strong>S. Li</strong>, C. Wang, X. Bai, and Y. Liu (2022). Physical Index and Data Fusion-Driven Method for Coal Burst Prediction in Time Sequence. <strong>Journal of China Coal Society</strong>. [[Paper]](https://doi.org/10.13225/j.cnki.jccs.2022.0680)
-
-- X. Yang, X. Yu, C. Zhang, <strong>S. Li</strong>, and Q. Niu (2021). MineGPS: Battery-Free Localization Base Station for Coal Mine Environment. <strong>IEEE Communications Letters</strong>. [[Paper]](https://doi.org/10.1109/LCOMM.2021.3081593)
-
+- Y. Cheng, M. Huang*, <strong>J. Yang</strong>, and W. Sun (2024). Enhancing the Immersive Experience of the Yijing in Claborate-Style Painting Through Virtual Reality. <strong>IEEE VRW 2024</strong>, pp. 967–968. [[Paper]](TBD)
