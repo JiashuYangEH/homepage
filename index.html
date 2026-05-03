@@ -130,6 +130,12 @@
                 <h2 id="home-subtitle"> </h2>
                 <!-- <span class="bi bi-list"></span> -->
             </header>
+            <!-- 文件下载按钮 -->
+            <div class="text-center my-4">
+                <button type="button" class="btn btn-primary btn-lg rounded-pill shadow px-4 py-2" data-bs-toggle="modal" data-bs-target="#downloadModal">
+                    <i class="bi bi-cloud-arrow-down-fill"></i> 下载计划与碎碎念
+                </button>
+            </div>
             <div class="main-body" id="home-md"></div>
         </div>
     </section>
@@ -159,6 +165,25 @@
     </section>
     <!-- Awards -->
 
+    <!-- 密码输入弹窗 Modal -->
+    <div class="modal fade" id="downloadModal" tabindex="-1" aria-labelledby="downloadModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="downloadModalLabel"><i class="bi bi-lock-fill"></i> 请输入下载密码</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <input type="password" id="downloadPassword" class="form-control" placeholder="请输入密码">
+                    <div id="passwordError" class="text-danger mt-2" style="display: none;">密码错误，请重试！</div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">取消</button>
+                    <button type="button" class="btn btn-primary" onclick="verifyPassword()">确认下载</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">
@@ -171,6 +196,46 @@
             </div>
         </div>
     </footer>
+
+<!-- 【新增】验证密码并下载的脚本 -->
+    <script>
+        function verifyPassword() {
+            // 1. 获取用户输入的密码
+            var pwd = document.getElementById("downloadPassword").value;
+            var errorMsg = document.getElementById("passwordError");
+            
+            // 2. 在这里设置你的密码 (例如设置密码为: 123456)
+            var correctPassword = "swallow"; 
+
+            if (pwd === correctPassword) {
+                // 密码正确，隐藏错误信息
+                errorMsg.style.display = "none";
+                
+                // 3. 在这里设置你要下载的【文件路径】和【下载后的文件名】
+                var fileUrl = "static/assets/talk.txt"; // 替换为你服务器上的文件路径
+                var fileName = "计划与碎碎念.txt";      // 替换为用户下载保存时的默认文件名
+
+                // 触发下载操作
+                var link = document.createElement('a');
+                link.href = fileUrl;
+                link.download = fileName;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                
+                // 关闭弹窗
+                var modalEl = document.getElementById('downloadModal');
+                var modal = bootstrap.Modal.getInstance(modalEl);
+                modal.hide();
+                
+                // 清空密码输入框
+                document.getElementById("downloadPassword").value = "";
+            } else {
+                // 密码错误，显示错误提示
+                errorMsg.style.display = "block";
+            }
+        }
+    </script>
 
 </body>
 
